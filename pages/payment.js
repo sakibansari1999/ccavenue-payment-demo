@@ -7,7 +7,7 @@ export default function Payment() {
 
   const paymentCCAvenue = () => {
     let paymentData = {
-      merchant_id: "MERCHANT_ID", // Merchant ID (Required)
+      merchant_id: "4039426", // Merchant ID (Required)
       order_id: "ORD123", // Order ID - It can be generated from our project
       amount: "50", // Payment Amount (Required)
       currency: "INR", // Payment Currency Type (Required)
