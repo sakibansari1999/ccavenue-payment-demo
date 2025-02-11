@@ -89,7 +89,7 @@ class Configure {
 }
 
 const CCAvenue = new Configure({
-  working_key: "337F9A67099D3C78F70A61EEA14E1923", // Working Key from CCAvenue
+  working_key: "D13BCC81122A0B2CB9F20C7ED5D6E10C", // Working Key from CCAvenue
   merchant_id: "4039426", // Merchant ID from CCAvenue
 });
 

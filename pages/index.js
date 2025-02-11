@@ -29,7 +29,7 @@ export default function Payment() {
     };
 
     let encReq = CCAvenue.getEncryptedOrder(paymentData);
-    let accessCode = "AVDQ42LL71CE77QDEC";
+    let accessCode = "AVSR42LL78CE18RSEC";
     let URL = `https://secure.ccavenue.com/transaction/transaction.do?command=initiateTransaction&merchant_id=${paymentData.merchant_id}6&encRequest=${encReq}&access_code=${accessCode}`;
     router.push(URL);
   };
